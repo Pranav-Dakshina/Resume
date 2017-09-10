@@ -161,7 +161,7 @@ a {
   float: left;
   text-align: left;
   font-weight: 600;
-  width: 40%;
+  width: 28%;
   color: #4a4e51;
 }
 .profile .list-content {
@@ -188,6 +188,24 @@ a {
     margin-bottom: 50px;
   }
 }
+.profile .contact-social {
+  margin-bottom: 100px;
+}
+@media (max-width: 1200px) {
+  .profile .contact-social {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .profile .contact-social {
+    margin-bottom: 50px;
+  }
+}
+
+.itl{
+  font-style: italic;
+}
+
 .profile svg {
   width: 100%;
   position: absolute;
