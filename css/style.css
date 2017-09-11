@@ -156,7 +156,8 @@ a {
 }
 @media (max-width: 850px) {
   .profile .contact-info {
-    margin-bottom: 50px;
+    margin-top: 0px !important;
+    width: 100% !important;
   }
 }
 @media (max-width: 450px) {
@@ -192,7 +193,7 @@ a {
 }
 @media (max-width: 1200px) {
   .profile .filler {
-    height: 220px;
+    height: 600px;
   }
 }
 @media (max-width: 850px) {
@@ -233,11 +234,14 @@ a {
   .profile .contact-social {
     margin-top: 0px !important;
     width: 100% !important;
+    padding-left: 0px;
   }
 }
 @media (max-width: 850px) {
   .profile .contact-social {
-    margin-bottom: 50px;
+    margin-top: 0px !important;
+    width: 100% !important;
+    padding-left: 0px;
   }
 }
 @media (max-width: 450px) {
@@ -340,12 +344,32 @@ a {
   font-weight: 300;
   margin-bottom: 20px;
 }
-.pl{
-  padding-left: 30px;
+@media (max-width: 1200px) {
+  .section-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .section-wrapper {
+    width: 100%;
+  }
 }
 @media (max-width: 450px) {
   .section-wrapper {
     width: 100%;
+  }
+}
+.pl{
+  padding-left: 30px;
+}
+@media (max-width: 1200px) {
+  .pl {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 850px) {
+  .pl {
+    padding-left: 0px;
   }
 }
 @media (max-width: 450px) {
