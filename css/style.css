@@ -152,6 +152,7 @@ a {
 @media (max-width: 1200px) {
   .profile .contact-info {
     margin-bottom: 70px;
+    width: 100% !important;
   }
 }
 @media (max-width: 850px) {
@@ -232,6 +233,7 @@ a {
 @media (max-width: 1200px) {
   .profile .contact-social {
     margin-bottom: 70px;
+    width: 100% !important;
   }
 }
 @media (max-width: 850px) {
