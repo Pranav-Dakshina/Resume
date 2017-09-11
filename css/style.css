@@ -145,13 +145,12 @@ a {
 }
 .profile .contact-info {
   margin-top: 100px;
-  /*font-weight: 300;*/
   width: 50%;
   float: left;
 }
 @media (max-width: 1200px) {
   .profile .contact-info {
-    margin-bottom: 70px;
+    margin-top: 0px !important;
     width: 100% !important;
   }
 }
@@ -232,7 +231,7 @@ a {
 }
 @media (max-width: 1200px) {
   .profile .contact-social {
-    margin-bottom: 70px;
+    margin-top: 0px !important;
     width: 100% !important;
   }
 }
