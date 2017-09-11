@@ -159,6 +159,11 @@ a {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 450px) {
+  .profile .contact-info {
+    width: 100% !important;
+  }
+}
 .profile .list-titles {
   float: left;
   text-align: left;
@@ -216,6 +221,7 @@ a {
   margin-top: 100px;
   float: left;
   width: 50%;
+  padding-left: 40px;
 }
 @media (max-width: 1200px) {
   .profile .contact-social {
@@ -225,6 +231,12 @@ a {
 @media (max-width: 850px) {
   .profile .contact-social {
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .profile .contact-social {
+    width: 100% !important;
+    padding-left: 0px;
   }
 }
 .itl{
@@ -326,6 +338,11 @@ a {
 @media (max-width: 450px) {
   .section-wrapper {
     width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .pl {
+    padding-left: 0px;
   }
 }
 .section-wrapper:nth-child(3) {
