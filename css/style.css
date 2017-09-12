@@ -13,6 +13,13 @@ body {
   font-size: 16px;
   line-height: 1.5em;
 }
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.style-disc{
+  list-style-type: disc;
+}
 
 a {
   color: #66cc99;
@@ -184,10 +191,11 @@ a {
 }
 .section-group{
   float: left;
+  width: 100%;
 }
 .profile .filler{
   width: 100%;
-  height: 350px;
+  height: 280px;
   display: block;
   float: left;
 }
@@ -301,9 +309,9 @@ a {
     margin-bottom: 20px;
   }
 }
-.pd{
+/*.pd{
   padding-bottom: 50px;
-}
+}*/
 .experience .job-wrapper {
   width: 70%;
   float: left;
