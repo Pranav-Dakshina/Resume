@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Pranav Dakshinamurthy",
+  "main": "resume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranav-Dakshina/Resume.git"
+  },
+  "author": "Pranav Dakshinamurthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranav-Dakshina/Resume/issues"
+  },
+  "homepage": "https://github.com/Pranav-Dakshina/Resume#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
